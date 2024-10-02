@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: auto;
+}
+#primero{
+   width: 100px;
+   float: left;
+   border: none;
+   padding-top: 5px;
+}
+#menu1{
+    width: 1350px;
+    height: 75px;
+    background: red;
+    overflow: hidden;
+}
+#menu1 li{
+    display: inline;
+    margin-right: 10px;
+}
+#menu1 ul{
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+#menu1 a{
+    color:aliceblue;
+    font-weight: bold;
+}
+
+#contenedor1{
+    float: right;
+    border: none ;
+    padding-right: 150px;
+    padding-top: 70px;
+}
+#content h1{
+   font-size: 40px;
+   text-align: center;
+}
+.menu2 h2{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+}
+.menu2{
+    background: #e70e2d;
+}
+.wrap{
+    width: 45vw;
+    height: 45vh;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    background:  linear-gradient(to bottom, rgb(0 0 0  / 1), rgb(0 0 0 / .25)), url(img/concert.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.wrap-texto{
+    color: #fff;
+    width: 55%;
+    text-align: center;
+}
+.grupo{
+    width: 45vw;
+    height: 45vh;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    background:  linear-gradient(to bottom, rgb(0 0 0  / 0.25), rgb(0 0 0 / .75)), url(img/gira.png);
+    background-size: cover;
+    background-position: center;
+    position:absolute;
+    margin-left: 1385px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    border-radius: 20px;
+}
+.grupo-texto{
+    color: #fff;
+    width: 60%;
+    text-align: center;
+}
+#imagen{
+    width:750px;
+    height:350px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow:  1px 10px 25px rgba(0, 0, 0, 0,5);
+    margin-top: 350px;
+}
+#imagen img{
+    width: 1100px;
+    height: 100%;
+    transition: 2s;
+}
+#imagen img:hover{
+    transform: translateX(-30%);
+    filter: brightness(80%);
+}
+#abajo{
+    width: 1300px;
+    height: 400px;
+    clear: both;
+    margin-top: 2px;
+    margin-left: 50px;
+    margin-bottom: 1px solid black;
+    
+}
+.acerca{
+    width: 300px;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 60px;
+}
+.acerca p{
+    font-size: 30px;
+}
+#menus{
+    width: 200px;
+    float: left;
+    margin-left: 180px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.Redessociales{
+    width: 300px;
+    float: left;
+    margin-left: 90px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.Redessociales li{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-left: 20px;
+}
+body{
+    background: #e70e2d;
+}
+footer{
+    background: #910317;
+}
